@@ -1,0 +1,20 @@
+import matplotlib.pyplot as plt 
+import numpy as np 
+
+# 1. 데이터 준비 
+x = np.linspace(0, 10, 100) 
+y = np.sin(x) 
+
+# 2. 그래프 그리기 
+plt.figure(figsize=(8, 4))  # 그래프 크기 조절 
+plt.plot(x, y, label='Sine Wave', color='blue', linestyle='--') 
+
+# 3. 꾸미기 (물리 레포트 필수 요소) 
+plt.title("Quantum Wave Function")  # 제목 
+plt.xlabel("Position (x)")  # x축 이름 
+plt.ylabel("Amplitude (psi)")  # y축 이름 
+plt.grid(True)  # 격자 표시 
+plt.legend()  # 범례(label) 표시 
+
+# 4. 출력 
+plt.show()

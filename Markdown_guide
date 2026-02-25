@@ -1,0 +1,19 @@
+마크다운(Markdown) 수식 작성법 ($L^AT_EX$)
+주피터 노트북의 마크다운 셀에서 수식을 쓸 때는 문장 사이에 넣을 때는 $수식$, 한 줄을 통째로 차지하는 강조 수식은 $$수식$$ 형식을 사용합니다.
+•	기본 연산 및 첨자
+o	지수(위첨자): x^2 → $x^2$
+o	밑첨자: a_n → $a_n$ (글자가 여러 개면 a_{net} 처럼 중괄호 사용)
+o	분수: \frac{분자}{분모} → $\frac{a}{b}$
+
+•	그리스 문자 (물리 필수)
+o	\psi, \phi, \hbar, \lambda, \omega → $\psi, \phi, \hbar, \lambda, \omega$
+o	대문자는 첫 글자를 대문자로: \Psi, \Phi → $\Psi, \Phi$
+
+•	미분과 적분
+o	미분: \frac{d}{dx} → $\frac{d}{dx}$ / 편미분: \frac{\partial}{\partial t} → $\frac{\partial}{\partial t}$
+o	적분: \int_{a}^{b} f(x) dx → $\int_{a}^{b} f(x) dx$
+
+•	양자역학 특수 기호
+o	브라-켓: \langle \psi | \phi \rangle → $\langle \psi | \phi \rangle$
+o	연산자(Hat): \hat{H} → $\hat{H}$
+o	행렬: \begin{pmatrix} a & b \\ c & d \end{pmatrix} → $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$
